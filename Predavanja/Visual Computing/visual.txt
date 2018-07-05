@@ -1,0 +1,46 @@
+Visual Computing = Computer Vision + Computer Graphics
+
+U daljem tekstu computer vision je cv;
+
+CV:
+	razumevanje slika(deep/machine learning)
+	od vise slika konstruisati 3D model (od par slika kuce napraviti model kuce)
+	od videa konstruisati scenu kretanja (primena u robotici, auto-ind)
+	pracenje i prepoznavanje ljudi (preko videa)
+
+	Zajednicka tema svih CV problema/zadataka/primera:
+		ulaz je uvek slika/video a izlaz infromacije o unesenim objektima
+
+Grafika omogucava kreiranje animacija i situacija koje se ne mogu desiti u pravom svetu.
+
+Grafika je prelaz iz informacije u sliku kao inverz CV-a
+Presek grafike i CV-a je Visual Computing (aka VC)
+
+CV Research Overview
+	Procesiranje slike: osnovne operacije nad slikom(ig filteri, kompresije, lokalne i globalne operacije)...
+	Photoshop: crop, kompozicija slika, sklanjanje suma na slici, modifikacija boja radi spajanja slka...
+	Feature extraction: nalazenje karakteristicnih tacaka slika, invarijante...
+	Prepoznavanje (velika oblast): pronalazenje specificnog objekta, nalazenje klase objekta, segmentacija slika,
+		identifikacija, kapiranje ljudske poze, segmentacija semantike pixela, segmentacija instanci, OCR(character recognition)...
+	Rekonstrukcija scene: koriscenje semantickih informacija, ...
+	Analiza pokreta u videu: gde se pixeli/objekti krecu, rekonstruisati scenu i putanju
+
+Procesiranje slike:
+	-Image enhancement
+	-Feature extraction (model --> test)
+	Za Feature je bitno da su invarijantni
+
+Optical flow
+	Metoda za video, gde zelimo da znamo gde se svaki pixel nalazi u sledecem frame-u
+
+Grafika:
+	Podela i istrazivanja:
+		Geometrija: diskretna, point-based, mesh generation, mesh deformations, simplification, mesh repair,
+					use-specific surface representation, surface reconstruction, parameterization, surface compression
+		Animacija: performance capture, character animation, physically-based simulation, ...
+		Renderovanje: real-time rendering, physically-based rendering, non-photorealistic rendering, material acquisition and 
+					representation, volumetric rendering
+		Digitalna fabrikacija (brand new): 3D printing, physically-based deformation, optimization-based design, computational robotics
+		Vizualizacija: use in medicine, VR hirurgija
+
+		Biblioteka: lib IJL
