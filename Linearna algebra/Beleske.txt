@@ -1,0 +1,56 @@
+Linearna:
+	lep nacin da se definise prostor
+
+Osnovne komponente:
+	- vektor
+	- matrice
+
+Tacka u 2/3/ND prostoru se definise kao vektor polozaja ((0, 0, ...), (x, y, ...))
+
+Podsetnik: Vektor je osnovna gradivna komponenta vektorskog prostora i odredjen intenzitetom, smerom, pravcem
+Trivijalno: sabiranje vektora, skalarni, mnozenje skalarom, vektorski, norma vektora
+
+Skalarni: x y = |x||y| * cos w
+		  x y = x1y1 + x2y2 + x3y3
+
+Trivijalnosti...
+
+Linearne operacije transformisu jedan vek. prostor u drugi
+	A(x + y) = A(x) + A(y)
+	A(alpha * x) = alpha * A(x)
+
+Linearni operatori mogu da od bilo koje baze prostora dobiju bilo koju drugu bazu tog istog prostora
+//Normiran vektor je jedinicni vektor
+
+Regularan operator je oprator koji radi u 3 dimenzije i nakon trans. ostaje u 3 dim.
+	- Za njega postoji inverz
+
+Regularni operatori: translacije, rotacije, skaliranje, refleksija..., neuralne mreze, grafovi,...
+
+Izomorfizam:
+	Dve+ stvari koje se ponasau potpuno isto
+	Neki grafovi
+	Matrice i regularni operatori
+
+Matrice:
+	M^-1 (matrica) = A^-1 (roperator)
+	Jedinicna matrica je neutral za mnozenje
+	Nula matrica neutral za sabiranje
+	Kompozicija operatora je mnozenje vise matrica
+
+Determinanta matrice
+	Pokazuje da li transformacija cuva odnos dimenzija ili ne
+	Sarusovo pravilo
+	La Granz^
+
+Determinanta 2x2 = umnozak dijagonale - umnozak druge dijagonale
+
+Upotreba matrice:
+	K-ti stepen matrice susedstva daje k-ti sused cvora
+	Matrica Markovljevog lanca na K-ti stepen daje verovatnocu da se K-ti dogadjaj desi
+	Matrica kod neuralne mreze predstavlja prelaz na sledeci sloj
+
+Paralelizacija:
+	GPU
+	BLAS-CPU
+
