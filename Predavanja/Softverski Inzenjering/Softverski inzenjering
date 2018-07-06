@@ -1,0 +1,75 @@
+Stvari kojim neko mora da se bavi na velikim softverskim projektima:
+	coding(construction)
+	software requirements
+		analiza poslovnih sistema
+	business systems analysis
+		organizacija posla
+		dogovaranje posla na papiru
+	architecture and design
+		koje komponente treba imati i njihove funkcionalnosti su deo arhitektura
+		sama implementacija i izrada komponenti su deo dizajna
+	UI/UX
+		user interface/expirience
+			interface je sam izgled
+			expirience - da li je user-friendly, upotrebljivost, brzina,...
+				ne radi graf. dizajner
+	Testing
+		razne vrste testiranja [unitesta - integration testa - regresiono testiranje]
+	Build and configuration
+		pravljenje verzije software za razlicite korisnike
+	System integration
+		Integraciju izmedju programa i okolnog sistema
+		Dodavanje kodova i konfiguracija za komunikaciju programa sa potrebnim bazama, programima,...
+		Prilagodjavanje raznim sistemima
+		Projekat moze biti komplikovan kao i sam razvoj softvera
+	User acceptance testing
+		UAT
+		Softver dati klijentu na odobravanje
+		UATE (Enviroment) - okruzenje u kojem klijent (velika firma) testira program
+		Nakon ovog program postaje produkciona verzija
+	Deployment
+		Praviti flow programa i pravljenje backup verzija
+		Programi u nukl. elektranama, bolnicama, itd moraju da rade 24/7, bez ikakvog stajanja
+	Operations and support
+		Tim koji radi analizu performansi, trazenje bagova
+		Tim koji pruza podrsku korisnicima instant
+		"Hitna sluzba"
+	Maintenance
+		Odrzavanje i dogradjivanje koda bez rasturanja istog
+	Performance optimization
+		Poboljsanje memorije, brzine, velicine podataka, prenos podataka, broj poziva
+	Quality assurance
+		QA != Test
+		Nacin da se obezbedi kvalitet pre pocetka rada
+	Software metrics
+		Koliko linija koda po modulu
+		Koji moduli su aktivni
+		Koliko koji programeri rade
+		Generano vadjenje proseka za sve i svasta
+			Intenziteti, pojavljivanje,...
+		Na raznim soft. proizvodima statistike su pokazale da broj sati rada na kodiranje ode 6-20%
+		Sto pokazuje da jedna komponenta sama od sebe nema veliku vrednost
+	Process (SDLC) management`
+		Software development life cycle
+		Genericki naziv za bilo sta sto ima software
+	Project management
+		Upravljanje softverskim proizvodom
+		Pregovor sa korisnikom o kvalitetu/brizni/ceni/... programa
+	Technical writing
+		Skoro izumrlo
+		Pisanje tehnicke dokumentacije za sisteme
+		Uputstva, nacini za instaliranje, README file
+	Training
+		...
+	Regulatory compliance
+		Prilagodjavanje regulativama
+		Pravljenje reuglativnog tela
+		Number portability
+	...
+
+Pogledati scrumb i extreme programming
+Predlozen linkedin sto je ekvivalent facebook-u za poslovne profile
+
+Interesantne kompanije: IIBA, ACM(association for computing machinery), IEEE computer society, PM (project manager), SEI (software engineering institute)
+
+Interesantne knjige: rapid development, code complete 2, the practice of programming, modern operating systems, computer networks(andrew tanenbaum), compilers principles techniques and tools (dragon book), software requirements, visual models for software requirements, documenting software architectures, a discipline for software engineering, poepleware productive projects and teams, the software project managers handbook, the mythical man-month, death march (edward yourdon) 2. edition, algorithms + data structures = programs Niklaus Wirth, algorithms & data structures Niklaus Wirth, the art of computer programming
